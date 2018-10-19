@@ -7,8 +7,14 @@
     <h1>Doctor Search</h1>
     <form id="name-search-form">
       <label for="name-search">Enter Doctor Name: </label>
-      <input type="text" id="name-search">
+      <input type="text" id="name-search" required>
       <button class="btn btn-info" type="submit">Submit</button>
+    </form>
+    <br>
+    <form id="condition-search-form">
+      <label for="condition-search">Enter Condition Name: </label>
+      <input type="text" id="condition-search" required>
+      <button class="btn btn-success" type="submit">Submit</button>
     </form>
     <div>
       <ul id="search-results"></ul>
