@@ -17,7 +17,6 @@ $(document).ready(function() {
 
     promise.then(function(response) {
       let body = JSON.parse(response);
-      console.log(body);
       search(body);
       
     }, function(error) {
@@ -32,7 +31,6 @@ $(document).ready(function() {
 
     promise.then(function(response) {
       let body = JSON.parse(response);
-      console.log(body);
       search(body);
       
     }, function(error) {
